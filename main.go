@@ -7,7 +7,11 @@ import (
 
 // author by yijia
 // Date is 2019-12-30
+<<<<<<< HEAD
 // function is about "Chinese proverb: Fish for three days and two days on sunning nets", 
+=======
+// function is about "Chinese proverb: Fish for three days and two days on suning nets", 
+>>>>>>> 72e45d59b8b823646770139fbc300bca6c0ac045
 //so input any date and caculate this day is on fishing or on holiday, compares to the begging date:19900101
 
 func main() {
@@ -46,7 +50,11 @@ func countDay(date string) int {
 	return totalDay
 }
 
+<<<<<<< HEAD
 //assert leap year
+=======
+//assert learp year
+>>>>>>> 72e45d59b8b823646770139fbc300bca6c0ac045
 func isLeap(year int) int {
 	if (year%4 == 0 && year%100 != 0) || year%400 == 0 {
 		return 1
